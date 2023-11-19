@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR generator ⭐</title>
+  </head>
+  <body>
+
+    <section class="qr-container">
+      <article class="atropos my-atropos">
+        <div class="atropos-scale">
+          <div class="atropos-rotate">
+            <div class="atropos-inner">
+              <picture class="qr-wrapper">
+                <img id="qr" alt="Imagen del código QR generado" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <footer>
+        <button type="button" id="download">Descargar</button>
+        <button type="button" id="share">Compartir</button>
+      </footer>
+    </section>
+
+    <script type="module" src="/scripts/qr.js"></script>
+  </body>
+</html>
